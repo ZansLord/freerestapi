@@ -43,7 +43,7 @@ const {
 } = require('./../lib')
 
 function IncreaseCount(){
-	count.hit('zans-api.herokuapp.com', 'apiusage').then((result) => { 
+	count.hit('freerestapi.herokuapp.com', 'apiusage').then((result) => { 
 		console.log(result);
 	});
 }
