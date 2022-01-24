@@ -33,7 +33,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 app.get('/api/v1/*', function (req, res, next) {
 	let nextred = req.originalUrl.replace('/v1/', '/');
-    res.redirect(307, (process.env.USING_HEROKU == true ? "https://freerestapi.herokuapp.com" : process.env.S_HOST) + nextred);
+    res.redirect(307, (process.env.USING_HEROKU == true ? "https://zans-api.herokuapp.com" : process.env.S_HOST) + nextred);
 });
 
 app.use('/', indexRouter);
