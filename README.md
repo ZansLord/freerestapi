@@ -12,7 +12,7 @@
 </details>
 </div>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AthallahDzaki/freerestapi)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ZansLord/freerestapi)
 
 ### Our Features
 ```
